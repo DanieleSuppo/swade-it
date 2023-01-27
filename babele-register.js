@@ -35,7 +35,8 @@ const skillDict = {
 	'Piloting' : 'Pilotare',
 	'Riding' : 'Cavalcare',
 	'Boating' : 'Navigare',
-	'Driving' : 'Guidare'
+	'Driving' : 'Guidare',
+	'Athletics': 'Atletica'
 }
 
 const folderDict = {
