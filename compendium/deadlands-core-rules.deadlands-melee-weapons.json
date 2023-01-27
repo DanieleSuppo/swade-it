@@ -1,0 +1,17 @@
+{
+	"label": "Deadlands Armi da CaC",
+	"mapping": {
+		"skill": {
+			"path": "system.actions.skill",
+			"converter": "translateSkill"
+		},
+		"actions": {
+			"path": "system.actions.additional",
+			"converter": "translateAction"
+		},
+		"cf_name": {
+			"path": "flags.cf.name",
+			"converter": "translateCfName"
+		}
+	}
+}
