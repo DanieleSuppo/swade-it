@@ -51,6 +51,14 @@ const folderDict = {
 	'Social Edges' : '06 - Vantaggi Sociali',
 	'Weird Edges' : '07 - Vantaggi Folli',
 	'Legendary Edges' : '08 - Vantaggi Leggendari',
+	'Powers' : 'Poteri',
+	'Equipment' : 'Equipaggiamento',
+	'Ammo' : 'Munizioni',
+	'Armor' : 'Armature',
+	'Common Gear': 'Oggetti comuni', //TODO rivedi con pdf
+	'Modern Firearms' : 'Armi da fuoco moderne', //TODO rivedi con pdf
+	'Personal Weapons' : 'Armi personali', //TODO rivedi con pdf
+	'Special Weapons' : 'Armi speciali', //TODO rivedi con pdf
 	'Bestiary' : 'Bestiario',
 	'Vehicles' : 'Veicoli',
 }
@@ -80,6 +88,7 @@ const actionDict = {
 	'Athletics (throwing)' : 'Atletica (lanciare)',
 	'Fighting' : 'Combattere',
 	'Bash' : 'Sfondare',
+	'Throw': 'Lancia'
 }
 
 function parseSkill(value){
@@ -95,6 +104,7 @@ function parseAction(value, translations, data){
 		return value;
 	}
 	let toSearch;
+	let toSearch2;
 	for (const prop in value) {
 		if (value.hasOwnProperty(prop)) {
 			toSearch = value[prop].name;
@@ -103,6 +113,13 @@ function parseAction(value, translations, data){
 			} else {
 				console.log(value[prop].name + " not found for " + data.name + ", please add to actionDict");
 			}
+			toSearch2 = value[prop].skillOverride;
+			if (actionDict[toSearch2] !== undefined) {
+				value[prop].skillOverride = actionDict[toSearch2];
+			} else {
+				console.log(value[prop].skillOverride + " not found for " + data.name + ", please add to actionDict");
+			}
+			//skillOverride
 		}
 	}
 
