@@ -1,7 +1,5 @@
 {
     "name": "swade-it",
-
-
     "id": "swade-it",
     "compatibility": {
         "minimum": 10,
@@ -29,15 +27,17 @@
             }
         ]
     },
-
-
     "title": "SWADE Italian Translation",
     "description": "Add Italian language to SWADE system for FoundryVTT. Translates both the system and the core module, if bought and active.",
-    "authors": [{"name":  "dsuppo"}],
+    "authors": [
+        {
+            "name": "dsuppo"
+        }
+    ],
     "flags": {},
-    "version": "1.1.11",
+    "version": "1.1.12",
     "minimumCoreVersion": "10",
-    "compatibleCoreVersion": "10",
+    "compatibleCoreVersion": "11",
     "scripts": [],
     "esmodules": [
         "babele-register.js"
