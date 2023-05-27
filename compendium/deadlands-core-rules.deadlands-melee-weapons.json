@@ -1,5 +1,5 @@
 {
-	"label": "Deadlands Equipaggiamento",
+	"label": "Deadlands Armi da CaC",
 	"mapping": {
 		"skill": {
 			"path": "system.actions.skill",

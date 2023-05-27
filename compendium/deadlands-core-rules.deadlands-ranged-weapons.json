@@ -1,5 +1,5 @@
 {
-	"label": "Deadlands Equipaggiamento",
+	"label": "Deadlands Armi a distanza",
 	"mapping": {
 		"skill": {
 			"path": "system.actions.skill",
