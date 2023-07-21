@@ -1,10 +1,6 @@
 ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FDanieleSuppo%2Fswade-it%2Freleases%2Flatest%2Fdownload%2Fmodule.json&query=%24.compatibility.verified&prefix=v&label=Foundry&color=passed)
 
-![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FDanieleSuppo%2Fswade-it%2Freleases%2Flatest%2Fdownload%2Fmodule.json&query=%24.version&label=Release)
-
 ![Module Version](https://img.shields.io/github/v/release/DanieleSuppo/swade-it?color=blue)
-
-![GitHub release (latest by date)](https://img.shields.io/github/downloads/DanieleSuppo/swade-it/latest/module.zip?color=purple)
 
 <!--- Downloads @ Latest Badge -->
 <!--- replace <user>/<repo> with your username/repository -->
@@ -75,6 +71,6 @@ Clicking "Save" in the bottom right will save the new version, which means that 
 
 # FoundryVTT Module
 
-Does something, probably
+swade-it
 
 ## Changelog
