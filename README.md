@@ -1,4 +1,8 @@
-![](https://img.shields.io/badge/Foundry-v11-informational)
+![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FDanieleSuppo%2Fswade-it%2Freleases%2Flatest%2Fdownload%2Fmodule.json&query=%24.compatibility.verified&prefix=v&label=Foundry&color=passed)
+
+![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FDanieleSuppo%2Fswade-it%2Freleases%2Flatest%2Fdownload%2Fmodule.json&query=%24.version&label=Release)
+
+![GitHub release (latest by date)](https://img.shields.io/github/downloads/HeroCreationLab/hero-creation-tool/latest/module.zip?color=purple)
 
 <!--- Downloads @ Latest Badge -->
 <!--- replace <user>/<repo> with your username/repository -->
