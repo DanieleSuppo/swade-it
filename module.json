@@ -10,9 +10,9 @@
             {
                 "id": "swade",
                 "type": "system",
-                "manifest": "https://gitlab.com/peginc/swade/-/releases/v3.0.5/downloads/system.json",
+                "manifest": "https://gitlab.com/peginc/swade/-/releases/v3.4.1/downloads/system.json",
                 "compatibility": {
-                    "verified": "3.0.5"
+                    "verified": "3.4.1"
                 }
             }
         ],
@@ -22,7 +22,7 @@
                 "type": "module",
                 "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
                 "compatibility": {
-                    "verified": "2.4.0"
+                    "verified": "2.5.5"
                 }
             }
         ]
@@ -56,7 +56,7 @@
         {
             "id": "babele",
             "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
-            "version": "2.4.0",
+            "version": "2.5.5",
             "type": "module"
         }
     ],
