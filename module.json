@@ -49,9 +49,6 @@
         }
     ],
     "packs": [],
-    "system": [
-        "swade"
-    ],
     "dependencies": [
         {
             "id": "babele",
